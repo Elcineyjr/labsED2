@@ -26,7 +26,6 @@ Arv* insere(Arv* arvore, int info){
         arvore = cria(info);
         printf("criou %d \n", arvore->info);
     }
-
     else if(info < arvore->info){
         arvore->esq = insere(arvore->esq, info);
         printf("esq\n");
