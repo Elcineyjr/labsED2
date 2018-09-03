@@ -7,7 +7,7 @@ Arv* cria_vazia();
 
 Arv* cria(int info);
 
-//nao havera insersao de numeros iguais inicialmente
+//nao havera insersao de numeros iguais 
 Arv* insere(Arv* arvore, int info);
 
 void destroi(Arv* arvore);

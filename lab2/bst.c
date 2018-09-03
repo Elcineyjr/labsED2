@@ -20,7 +20,7 @@ Arv* cria(int info){
     return novo;
 }
 
-//nao havera insersao de numeros iguais inicialmente
+//nao havera insersao de numeros iguais 
 Arv* insere(Arv* arvore, int info){
     if(!arvore){
         arvore = cria(info);
