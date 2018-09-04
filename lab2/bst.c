@@ -22,18 +22,13 @@ Arv* cria(int info){
 
 //nao havera insersao de numeros iguais 
 Arv* insere(Arv* arvore, int info){
-    if(!arvore){
-        arvore = cria(info);
-        printf("criou %d \n", arvore->info);
-    }
-    else if(info < arvore->info){
-        arvore->esq = insere(arvore->esq, info);
-        printf("esq\n");
-    }
-    else if(info > arvore->info){
-        arvore->dir = insere(arvore->dir, info); 
-        printf("dir\n");
-    }
+    if(!arvore)
+        arvore = cria(info);    
+    else if(info < arvore->info)
+            arvore->esq = insere(arvore->esq, info);
+         else if(info > arvore->info)
+                 arvore->dir = insere(arvore->dir, info); 
+
     return arvore;
 }
 
@@ -54,3 +49,19 @@ void imprime(Arv* arvore){
     imprime(arvore->esq);
     imprime(arvore->dir);
 }
+
+// int altura(Arv* arvore){
+    //TODO
+    
+    // if(!arvore)
+    //     return -1;
+    
+    // int alturaEsq = alturaDir = 0;
+    // alturaEsq = altura(arvore->esq); 
+    // alturaDir = altura(arvore->dir);
+
+    // if(alturaEsq > alturaDir)
+    //     return alturaEsq + 1;
+    // else return alturaDir + 1;
+
+// }
