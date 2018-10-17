@@ -1,0 +1,34 @@
+qsort top-down sem otimizaçao
+100k ->
+1M   -> 
+10M  ->
+
+qsort top-down cutoff
+100k ->
+1M   -> 
+10M  ->
+
+qsort top-down mediana de 3
+100k ->
+1M   -> 
+10M  ->
+
+qsort top-down cutoff e mediana de 3
+100k ->
+1M   -> 
+10M  ->
+
+qsort bottom-up sem otimizaçao
+100k ->
+1M   -> 
+10M  ->
+
+qsort bottom-up cutoff e mediana de 3
+100k ->
+1M   -> 
+10M  ->
+
+qsort melhor versao com shuffle
+100k ->
+1M   -> 
+10M  ->
